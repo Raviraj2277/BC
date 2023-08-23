@@ -1,7 +1,7 @@
 /// <summary>
 /// To migrate all customers to stripe
 /// </summary>
-codeunit 50148 MigrateCustomersToStripe
+codeunit 50001 MigrateCustomersToStripe
 {
     trigger OnRun()
     var
