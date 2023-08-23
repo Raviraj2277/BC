@@ -1,7 +1,7 @@
 /// <summary>
 /// This codeunit procedures used as web services for creating payment entries of stripe portal
 /// </summary>
-codeunit 50123 Stripe
+codeunit 50000 Stripe
 {
     procedure CreatePaymentJournal(customerStripeId: Text[100]; repayDate: Date; paymentId: Text[100]; amount: Decimal; documentType: Text[100]): Text
     var
